@@ -1,25 +1,12 @@
-[
-	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
+{
+		"name": "Hell's Heart",
+		"replaces": "Ironworks",
+		"uniqueTo": "Hell of Blazing Fires",
+		"cost": 140,
+		"production": 8,
+		"culture": 1,
 		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city",
+			"Gain a free [Nuclear Plant] [in this city]"
+		"requiredTech": "Machinery"
 	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
-]
